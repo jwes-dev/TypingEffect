@@ -1,0 +1,14 @@
+.blink{
+    -webkit-animation: _blink_ 0.2s ease infinite alternate;
+    animation: _blink_ 0.2s ease infinite alternate;
+}
+
+@keyframes _blink_ {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

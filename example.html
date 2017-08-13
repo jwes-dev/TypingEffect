@@ -1,0 +1,18 @@
+<html>
+<body>
+<h2>Regular Typing</h2>
+<p id="RegType"></p>
+
+<h2>Human typing effect</h2>
+<p id="HumanType"><p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="Animations.js" ></script>
+<script>
+$(document).ready(function(){
+	$("#RegType").TypeText("This is an example of regular typing", 100);
+	$("#HumanType").HumanTypeText("This is an example of how a human types a text. The pause is completely random hence the simulation of pausing for thinking", 75);
+});
+</script>
+</body>
+</html>
